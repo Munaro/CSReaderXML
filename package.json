@@ -1,0 +1,17 @@
+{
+  "name": "cs-reader-xml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-firebird": "^1.1.8"
+  },
+  "scripts": {
+	"start": "node src/index.js",
+	"dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "type": "module"
+}
