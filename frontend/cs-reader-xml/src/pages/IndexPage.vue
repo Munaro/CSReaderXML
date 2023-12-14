@@ -7,8 +7,8 @@
 <script lang="ts">
 
 import { defineComponent } from 'vue';
-import { electronApi } from 'src/api/electron-api';
-import PathForm from './PathForm.vue';
+import { electronApi } from '../api/electron-api';
+import PathForm from '../components/PathForm.vue';
 // import { ipcRenderer } from 'electron'
 
 export default defineComponent({
