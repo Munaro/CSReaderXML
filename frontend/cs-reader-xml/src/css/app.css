@@ -1,1 +1,138 @@
-/* app global css */
+@font-face {
+    font-family: lufga;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaRegular.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaItalic.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaThin.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: italic;
+    font-weight: 100;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaThinItalic.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: normal;
+    font-weight: 200;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaExtraLight.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: italic;
+    font-weight: 200;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaExtraLightItalic.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaLight.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: italic;
+    font-weight: 300;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaLightItalic.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: normal;
+    font-weight: 500;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaMedium.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: italic;
+    font-weight: 500;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaMediumItalic.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: normal;
+    font-weight: 600;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaSemiBold.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: italic;
+    font-weight: 600;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaSemiBoldItalic.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaBold.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaBoldItalic.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: normal;
+    font-weight: 800;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaExtraBold.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: italic;
+    font-weight: 800;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaExtraBoldItalic.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaBlack.woff) format('woff')
+}
+
+@font-face {
+    font-family: lufga;
+    font-style: italic;
+    font-weight: 900;
+    src: local('Lufga'), url(https://fonts.cdnfonts.com/s/67775/LufgaBlackItalic.woff) format('woff')
+}
+
+
+* {
+    font-family: 'lufga';
+}
+
+html,
+body,
+#q-app {
+    height: 100vh !important;
+    min-height: 100vh !important;
+    max-height: 100vh !important;
+}

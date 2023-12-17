@@ -1,5 +1,6 @@
 <template>
-    <q-page class="row items-center justify-evenly">
+    <q-page>
+        
         <PathForm></PathForm>
     </q-page>
 </template>
